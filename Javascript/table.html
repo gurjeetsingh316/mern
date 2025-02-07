@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Enter Table no. <input type="number" id="tableno" /> <br />
+    <br />
+    Start Table no. <input type="number" id="startno" /> <br />
+    <br />
+    Enter Table no. <input type="number" id="endno" /> <br /><br />
+
+    <button onclick="generateTable()">Click</button>
+    <div id="output"></div>
+
+    <script>
+      function generateTable() {
+        let table = document.getElementById("tableno").value;
+        let start = document.getElementById("startno").value;
+        let end = document.getElementById("endno").value;
+
+        for (let i = start; i <= end; i++) {
+          output += `${table} × ${i} = ${table * i} <br>`;
+        }
+        document.getElementById("output").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>

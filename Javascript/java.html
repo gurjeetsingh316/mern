@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1 id="hc">Heading</h1>
+    <button onclick="changeHeading()">Click</button>
+    <button onclick="getsalert()">Alert</button>
+    <button ondblclick="getmsg()">Double Click</button>
+
+
+
+
+    <script>
+        function changeHeading(){
+            document.getElementById("hc").innerHTML="<u>change</u>"
+
+        }
+
+        function getsalert(){
+            alert("hello")
+        }
+
+        function getmsg(){
+            console.log("hi")
+        }
+        
+
+    </script>
+    
+    <!-- <h1 id="in1">Hello</h1>
+        <button onclick="changeHeading()">Click</button>
+
+        <script>
+            function changeHeading(){
+                // document.getElementById("in1").innerHTML="<u>bye</u>"
+                document.getElementById("in1").innerHTML="<p>bye</p>"
+            }
+            </script> -->
+</body>
+</html>

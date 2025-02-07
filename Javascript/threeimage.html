@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Image</title>
+    <style>
+        .slides{
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slides" id="slides">
+        
+    </div>
+     <script>
+         function slider(){
+            setInterval(slider1,1000)
+            function slider1(){
+                document.getElementById("slides").style.backgroundImage="url(https://cdn.pixabay.com/photo/2016/09/07/11/37/sunset-1651426_1440_2560.jpg)"
+            }           
+            setInterval(slider2,2000)
+            function slider2(){
+                document.getElementById("slides").style.backgroundImage="url(https://upload.wikimedia.org/wikipedia/commons/2/2c/Pexels-pixabay-259280.jpg)"
+            }           
+            setInterval(slider3,3000)
+            function slider3(){
+                document.getElementById("slides").style.backgroundImage="url(https://cdn.pixabay.com/photo/2017/10/25/16/51/tree-2888513_1280.jpg)"
+            }           
+            
+        }
+        slider();
+
+     </script>
+
+</body>
+</html>

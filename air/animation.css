@@ -1,0 +1,166 @@
+body{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+div{
+    /* width: 100px;
+    height: 100px; */
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+#box1 
+{
+
+          
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+        background-color: rgb(19, 103, 158);
+        width: 900px;
+    height: 600px;
+    margin-right: -40px;
+
+   z-index: 9;
+
+    
+    
+}
+
+#box2
+{
+
+          
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+        background-color: rgb(19, 103, 158);
+        width: 600px;
+    height: 500px;
+
+    margin-top: 100px;
+    margin-left: -300px;
+    z-index: 9;
+    
+    
+}
+
+#box3
+{
+
+          
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+        background-color: rgb(19, 103, 158);
+        width: 900px;
+    height: 600px;
+
+    /* margin-top: 200px; */
+    margin-left: -400px;
+
+  z-index: 5;
+    
+    
+}
+
+#box4{
+    background-color: rgb(199, 145, 20);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+
+    margin-top: 270px;
+    margin-left: -700px;
+    z-index: 0;
+
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 10s;
+}
+
+@keyframes animation1 {
+    0%{
+        transform: translateX(0%);
+        background-color: rgb(195, 44, 44);
+    }
+    50%{
+        transform: translateY(-550px) ;
+    }
+}
+
+
+#box5{
+   z-index: 17;
+    width: 200px;
+    height: 200px;
+
+    background-image: url(c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 16s;
+}
+
+@keyframes animation2 {
+    0%{
+        transform: translateX(900px);
+    }
+    50%{
+        transform: translateX(-1900px) ;
+    }
+}
+
+
+#box6{
+    z-index: 18;
+     width: 200px;
+     height: 200px;
+     margin-top: 90px;
+ 
+     background-image: url(c.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ 
+     animation-name: animation2;
+     animation-iteration-count: infinite;
+     animation-fill-mode: both;
+     animation-duration: 10s;
+ }
+
+ #box7{
+    z-index: 19;
+     width: 200px;
+     height: 200px;
+     margin-top: 90px;
+ 
+     background-image: url(c.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ 
+     animation-name: animation3;
+     animation-iteration-count: infinite;
+     animation-fill-mode: linear;
+     animation-duration: 10s;
+ }
+
+ @keyframes animation3 {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(-900px) ;
+    }
+    /* 100%{
+        transform: translateX(-900px) ;
+    } */
+
+     
+}

@@ -1,0 +1,56 @@
+#id_1{
+
+background-color: aqua;
+height: 200px;
+
+}
+
+#id_2{
+
+    height: 400px;
+    width: auto;
+    background-image: url(hg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+    }
+
+    #id_3{
+
+        height: 400px;
+        width: auto;
+         background-image: url(bg.jpg);
+         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        
+        }
+
+        #id_4{
+
+        height: 200px;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+               
+        
+        
+            
+            }
+
+            #id_5 {
+                height: 200px;
+                background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+              }
+
+              #id_6 {
+                height: 600px;
+                background-image: radial-gradient(red, yellow, green);
+
+                 
+                
+              }
